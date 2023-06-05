@@ -1,0 +1,65 @@
+.personal-blogs{
+    width:70%;
+    margin: auto;
+    padding:50px 0px;
+}
+
+.pb-heading>p{
+    font-size:40px;
+    flex: 1;
+}
+
+.pb-heading{
+    display: flex;
+    height:160px;
+}
+
+.pb-blog{
+    text-decoration: none;
+    color: black;
+}
+.blog-heading{
+    font-size:30px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.pb-blog-div{
+    height: 50px;
+    white-space: wrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.blog-body{
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.blog-container{
+    width:90%;
+    overflow-wrap: normal;
+    /* margin:auto; */
+}
+.blog-profile{
+    width:90%;
+    height:20px;
+    text-align: left;
+    display: flex;
+    margin:80px auto;
+}
+.blog-profile-text{
+    font-weight:600;
+    transform: translate(10px,6px);
+}
+.blog-box{
+    display: flex;
+    width:90%;
+    margin: auto;
+}
+
+.vl {
+    border-right: 2px solid rgb(12, 12, 12);
+    height: auto;
+    width:2%;
+}
+

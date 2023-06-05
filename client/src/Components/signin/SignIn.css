@@ -1,0 +1,153 @@
+.login{
+    /* position: absolute; */
+    height:75vh;
+    width: 45rem;
+    transition: all 0.2s;
+}
+
+.hide{
+    display:none;
+}
+.show{
+    display: block;
+}
+.login-design{
+    box-shadow: 2px 2px 2px 4px rgba(0, 0, 0, 0.1),2px 2px 2px 4px rgba(0, 0, 0, 0.1),-2px -2px 2px 4px rgba(0, 0, 0, 0.1),-2px -2px 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+    background-color: white;
+    
+    
+}
+.cross{
+    text-align: end;
+    padding:0px 20px 0px 0px;
+    opacity:0.4;
+    cursor: pointer;
+    font-size:20px;
+    transition: all 0.2s;
+}
+
+.cross:hover{
+    opacity:0.7;
+}
+
+.login-heading{
+    font-size:25px;
+    margin-top:2.5em;
+}
+
+.login-media{
+    padding-top:3em;
+}
+
+
+.login-media-button{
+    background-color: white;
+    margin-top:15px;
+    font-size:14px;
+    color: rgba(0, 0, 0,0.7);
+    padding:10px 5px;
+    width:230px;
+    border-radius: 25px;
+    display: flex;
+    border: 0.5px solid rgba(0, 0, 0,0.6);
+    cursor: pointer;
+}
+
+.media-image{
+    width:18px;
+    text-align: left;
+    /* transform: translate(-10px,3px); */
+}
+.login-first{
+    width:45px;
+    text-align: center;
+}
+.login-second{
+    width:79%;
+    text-align: left;
+}
+
+.login-txt{
+    margin-top:30px;
+    font-size:17px;
+}
+.login-foot{
+    font-size:12px;
+    margin-top:50px;
+    text-align: center;
+    width:400px;
+    color: rgba(0, 0, 0,0.6);
+}
+
+.login-email-media{
+    position: absolute;
+    top: 0;
+}
+.email-text-box{
+    border-bottom:1px solid black;
+    border-top: none;
+    border-right: none;
+    padding:5px 12px;
+    border-left: none;
+    font-size:12px;
+    width:210px;
+}
+
+.email-text-box:focus{
+    outline: none;
+}
+
+@media only screen and (max-width:700px) {
+    .login{
+        height:55vh;
+        width:25rem;
+    }
+    .login-design{
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -30%);
+    }
+    .login-heading{
+        font-size:15px;
+        margin-top:1.5em;
+    }
+    .email-heading-text{
+        font-size:11px;
+    }
+}
+
+@media only screen and (max-width:436px) {
+    .login{
+        height:55vh;
+        width:17rem;
+        top: 30%;
+        left: 50%;
+    }
+    .login-heading{
+        font-size:13px;
+        margin-top:1em;
+    }
+    .login-media-button{
+
+        width:210px;
+    }
+    .login-media{
+        padding-top:0;
+    }
+    .login-txt{
+        font-size:11px;
+        margin-top:10px;
+    }
+    .login-foot{
+        font-size:8px;
+        margin-top:20px;
+        text-align: center;
+        width:200px;
+        color: rgba(0, 0, 0,0.6);
+    }
+}

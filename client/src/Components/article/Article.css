@@ -1,0 +1,35 @@
+.article {
+    margin-bottom: 2rem;
+  }
+  
+  .article-header h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .article-header p {
+    font-size: 0.8rem;
+    color: #999;
+    margin-bottom: 1rem;
+  }
+  
+  .article-content p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1rem;
+  }
+  
+  .article-footer ul {
+    display: flex;
+    list-style: none;
+  }
+  
+  .article-footer li {
+    margin-right: 1rem;
+  }
+  
+  .article-footer a {
+    color: #333;
+    text-decoration: none;
+    font-size: 0.8rem;
+  }
